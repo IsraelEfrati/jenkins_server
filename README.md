@@ -11,10 +11,13 @@ cd ./my-server
 Download code files by running the following:       
 git clone https://github.com/IsraelEfrati/jenkins_server.git
 
+Enter the new directory:        
+cd ./my-server/jenkins_server
+
 Build the image by running:     
 sudo docker build -t jenkins:jcasc .
 
 Run the container by running:       
-sudo docker-compose up -d
+sudo docker compose up -d
 
   
