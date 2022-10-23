@@ -18,7 +18,7 @@ Create a file for environment variables:
 gedit .env
 
 Add the following lines:    
-ADMIN_ID = <<user name>>      
+ADMIN = <user name>      
 ADMIN_PASSWORD = <password>
 
 Build the image by running:     
