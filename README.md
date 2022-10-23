@@ -19,7 +19,7 @@ gedit .env
 
 Add the following lines:    
 ADMIN_ID = <user_name>      
-ADMIN_PASSWORD = <password>
+ADMIN_PASSWORD = <_password_>
 
 Build the image by running:     
 sudo docker build -t jenkins:jcasc .
