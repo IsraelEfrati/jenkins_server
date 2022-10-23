@@ -14,13 +14,12 @@ git clone https://github.com/IsraelEfrati/jenkins_server.git
 Enter the new directory:        
 cd ./my-server/jenkins_server
 
-Create a file for environment variables:
-
+Create a file for environment variables:    
 gedit .env
 
 Add the following lines:
-
-ADMIN_ID = <user name>
+ADMIN_ID = <user name>    
+  
 ADMIN_PASSWORD = <password>
 
 Build the image by running:     
