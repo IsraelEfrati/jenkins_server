@@ -17,9 +17,8 @@ cd ./my-server/jenkins_server
 Create a file for environment variables:    
 gedit .env
 
-Add the following lines:
-ADMIN_ID = <user name>    
-  
+Add the following lines:    
+ADMIN_ID = <user name>      
 ADMIN_PASSWORD = <password>
 
 Build the image by running:     
